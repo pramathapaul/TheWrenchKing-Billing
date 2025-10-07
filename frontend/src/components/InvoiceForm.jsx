@@ -75,7 +75,7 @@ function InvoiceForm() {
     };
 
     try {
-      await axios.post("http://localhost:5000/invoices", newInvoice);
+      await axios.post("https://thewrenchking-billing-backend.onrender.com/invoices", newInvoice);
       alert("✅ Invoice Saved!");
 
       // Clear after save
