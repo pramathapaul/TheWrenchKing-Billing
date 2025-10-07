@@ -13,7 +13,7 @@ function Invoices() {
 
   const fetchInvoices = () => {
     axios
-      .get("http://localhost:5000/invoices")
+      .get("https://thewrenchking-billing-backend.onrender.com/invoices")
       .then((res) => {
         const sorted = [...res.data].sort(
           (a, b) => new Date(b.date) - new Date(a.date)
@@ -201,7 +201,7 @@ Discount: ₹${invoice.discount}
   const handleDelete = async (id) => {
     if (!window.confirm("Are you sure you want to delete this invoice?")) return;
     try {
-      await axios.delete(`http://localhost:5000/invoices/${id}`);
+      await axios.delete(`https://thewrenchking-billing-backend.onrender.com/invoices/${id}`);
       const updated = invoices.filter((inv) => inv.id !== id);
       setInvoices(updated);
       setFiltered(updated);
