@@ -6,7 +6,7 @@ function Dashboard() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/invoices")
+      .get("https://thewrenchking-billing-backend.onrender.com/invoices")
       .then((res) => setInvoices(res.data))
       .catch((err) => console.log(err));
   }, []);
