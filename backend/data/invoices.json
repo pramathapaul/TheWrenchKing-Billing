@@ -1,0 +1,80 @@
+[
+  {
+    "id": "INV-20251006-001",
+    "customerName": "Pramatha Das",
+    "customerContact": "7003823938",
+    "customerAddress": "Purbachal Barasat 700129",
+    "vehicleName": "N160",
+    "vehicleNumber": "WB25P0981",
+    "items": [
+      {
+        "name": "Wash",
+        "qty": 1,
+        "price": 250,
+        "labourCharges": 0
+      },
+      {
+        "name": "Projector Head Lamp Bajaj Pulsar N160",
+        "qty": 1,
+        "price": 6932,
+        "labourCharges": 0
+      },
+      {
+        "name": "Ktm Original Indicator Universal (set of 4)",
+        "qty": 1,
+        "price": 1676,
+        "labourCharges": 0
+      },
+      {
+        "name": "Bajaj Oil Filter",
+        "qty": 1,
+        "price": 82,
+        "labourCharges": 0
+      },
+      {
+        "name": "Ceat Zoom Rad 130/70 17 Tubeless 62 P Rear",
+        "qty": 1,
+        "price": 3121,
+        "labourCharges": 0
+      }
+    ],
+    "tax": "18",
+    "discount": "231",
+    "subtotal": 12061,
+    "total": 14000.98,
+    "date": "2025-10-06"
+  },
+  {
+    "id": "INV-20251007-001",
+    "customerName": "Papai Paul",
+    "customerContact": "8584809015",
+    "customerAddress": "Barasat, 700124",
+    "vehicleName": "MT15",
+    "vehicleNumber": "WB24B6050",
+    "items": [
+      {
+        "name": "Wash",
+        "qty": 1,
+        "price": 259,
+        "labourCharges": 0
+      },
+      {
+        "name": "Bajaj Projector Head Lamp",
+        "qty": 1,
+        "price": 6501,
+        "labourCharges": 0
+      },
+      {
+        "name": "KTM Original Indicator (set of 4)",
+        "qty": 1,
+        "price": 1399,
+        "labourCharges": 0
+      }
+    ],
+    "tax": 0,
+    "discount": "0100",
+    "subtotal": 8159,
+    "total": 8059,
+    "date": "2025-10-07"
+  }
+]
